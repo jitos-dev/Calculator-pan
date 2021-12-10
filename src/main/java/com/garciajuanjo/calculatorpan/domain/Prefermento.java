@@ -69,5 +69,4 @@ public final class Prefermento extends Ingredient {
     public int hashCode(){
         return Objects.hash(getName());
     }
-
 }
