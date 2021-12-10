@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.SearchableComboBox?>
+
+<Pane fx:id="paneProviders" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="1120.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.garciajuanjo.calculatorpan.controller.NewProviderController">
+   <children>
+      <GridPane layoutX="-1.0" layoutY="-1.0" prefHeight="670.0" prefWidth="1120.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="120.0" minHeight="10.0" prefHeight="120.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="147.0" minHeight="10.0" prefHeight="120.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="273.0" minHeight="10.0" prefHeight="120.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="281.0" minHeight="10.0" prefHeight="169.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="210.0" minHeight="10.0" prefHeight="110.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Proveedores" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
+               <children>
+                  <Label text="Proveedores">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <SearchableComboBox fx:id="scProviders" prefHeight="31.0" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="70.0" right="40.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="2">
+               <children>
+                  <Label text="Nombre">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tfName" prefHeight="31.0" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="70.0" right="40.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="3">
+               <children>
+                  <Label text="Dirección">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tfDirection" prefHeight="31.0" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="70.0" right="40.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <Label text="Teléfono">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tfPhone" prefHeight="31.0" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="40.0" right="70.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox prefHeight="83.0" prefWidth="494.0" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.rowSpan="2">
+               <children>
+                  <Label text="Observaciones">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="40.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="taObservations" prefHeight="200.0" prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets left="40.0" />
+                     </VBox.margin>
+                  </TextArea>
+               </children>
+               <GridPane.margin>
+                  <Insets right="70.0" />
+               </GridPane.margin>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="100.0" GridPane.rowIndex="4">
+               <children>
+                  <Button fx:id="btEdit" mnemonicParsing="false" onAction="#btEditAction" />
+                  <Button fx:id="btDelete" mnemonicParsing="false" onAction="#btDeleteAction" />
+                  <Button fx:id="btCancel" mnemonicParsing="false" onAction="#btCancelAction" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="80.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <children>
+                  <Button fx:id="btNewProvider" mnemonicParsing="false" onAction="#btNewProviderListener" />
+                  <Button fx:id="btSave" mnemonicParsing="false" onAction="#btSaveListener" />
+                  <Label fx:id="lbStatus" prefHeight="21.0" text="Calculator Pan v.1" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="40.0" right="70.0" />
+               </GridPane.margin>
+            </HBox>
+            <ImageView fx:id="imgLogo" fitHeight="106.0" fitWidth="267.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+               <GridPane.margin>
+                  <Insets right="70.0" />
+               </GridPane.margin>
+            </ImageView>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
+         </padding>
+      </GridPane>
+   </children>
+</Pane>

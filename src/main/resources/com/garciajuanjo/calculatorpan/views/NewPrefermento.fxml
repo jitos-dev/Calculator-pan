@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.CheckComboBox?>
+<?import org.controlsfx.control.SearchableComboBox?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.garciajuanjo.calculatorpan.controller.NewPrefermentoController">
+   <children>
+      <GridPane layoutX="1.0" layoutY="23.0" prefHeight="676.0" prefWidth="1100.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="83.0" minHeight="10.0" prefHeight="83.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="118.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="200.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="232.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="228.0" minHeight="10.0" prefHeight="200.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="93.0" minHeight="10.0" prefHeight="93.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Prefermentos" GridPane.columnSpan="2" GridPane.halignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgLogo" fitHeight="87.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+               <GridPane.margin>
+                  <Insets right="70.0" />
+               </GridPane.margin>
+            </ImageView>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
+               <children>
+                  <Label text="Prefermentos">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <SearchableComboBox fx:id="scPrefermentos" prefHeight="31.0" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="70.0" right="40.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <Label text="Levadudra">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tfYeast" prefHeight="31.0" promptText="0.00" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="40.0" right="70.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="2">
+               <children>
+                  <Label text="Nombre">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tfName" prefHeight="31.0" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="70.0" right="40.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <Label text="Agua(%)">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tfWatter" prefHeight="31.0" promptText="\% Campo obligatorio" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="40.0" right="70.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox prefHeight="158.0" prefWidth="550.0" GridPane.rowIndex="3">
+               <children>
+                  <Label text="Harinas">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <CheckComboBox fx:id="cbFlour" prefHeight="31.0" prefWidth="585.0" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="70.0" right="40.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.rowSpan="2">
+               <children>
+                  <Label text="Descripción">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="taDescription" prefHeight="245.0" prefWidth="440.0" promptText="Este campo no es obligatorio" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="40.0" right="70.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox prefHeight="132.0" prefWidth="440.0" GridPane.rowIndex="4">
+               <children>
+                  <HBox fx:id="hbPorcentajes" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="440.0">
+                     <children>
+                        <Label fx:id="lbPercentajes" text="Porcentajes de las harinas">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="15.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <VBox fx:id="vbPercentajes" prefHeight="159.0" prefWidth="440.0">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </VBox>
+               </children>
+               <GridPane.margin>
+                  <Insets left="70.0" right="40.0" />
+               </GridPane.margin>
+            </VBox>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="100.0" GridPane.rowIndex="5">
+               <children>
+                  <Button fx:id="btEdit" mnemonicParsing="false" onAction="#btEditAction" />
+                  <Button fx:id="btDelete" mnemonicParsing="false" onAction="#btDeleteAction" />
+                  <Button fx:id="btCancel" mnemonicParsing="false" onAction="#btCancelAction" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="70.0" />
+               </GridPane.margin>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="80.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <children>
+                  <Button fx:id="btNewPrefermento" mnemonicParsing="false" onAction="#btNewPrefermentoAction" />
+                  <Button fx:id="btSave" mnemonicParsing="false" onAction="#btSaveAction" />
+                  <Label fx:id="lbStatus" text="Calculator Pan v.1" />
+               </children>
+               <GridPane.margin>
+                  <Insets left="40.0" right="70.0" />
+               </GridPane.margin>
+            </HBox>
+         </children>
+      </GridPane>
+   </children>
+</Pane>
