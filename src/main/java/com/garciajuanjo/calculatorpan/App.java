@@ -11,15 +11,16 @@ import javafx.stage.Stage;
 import org.fxmisc.cssfx.CSSFX;
 import org.kordamp.bootstrapfx.BootstrapFX;
 
-import java.io.FileReader;
 import java.util.Properties;
 
 import static com.garciajuanjo.calculatorpan.util.Constant.*;
 
 public class App extends Application {
 
-    public static void main(String[] args) { launch();
+    public static void runApp(String[] args) {
+        launch(args);
     }
+
 
     private static FlourDao flourDao;
     private static ProviderDao providerDao;
@@ -67,7 +68,10 @@ public class App extends Application {
         recipeDao = new RecipeDao();
         appDao.conect();
         properties = new Properties();
-        properties.load(new FileReader(file_properties));
+        properties.load(this.getClass().getResourceAsStream("/Aplication.properties"));
+        /*Con la sentencia de abajo el archivo Aplication.properties se encontraba en la misma ruta que por ejemplo
+        * el Pom*/
+        //properties.load(new FileReader(file_properties));
     }
 
     @Override
