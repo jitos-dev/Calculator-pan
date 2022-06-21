@@ -85,6 +85,37 @@
                     <mainClass>com.garciajuanjo.calculatorpan.Main</mainClass>
                 </configuration>
             </plugin>
+
+            <!--Con este plugin podemos crear el ejecutable (.jar) con las dependencias que necesite (las que tengamos
+            en este pom). Crea dos archivos .jar y el que nos vale es el que pone jar-with-dependencies.
+            Para crear el ejecutable: mvn clean package  Creará una carpeta que llama target en la raíz del programa donde
+            estarán los ejecutables-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.4.1</version>
+                <configuration>
+                    <descriptorRefs>
+                        //Sufijo que se le agregara al fichero JAR ejecutable
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            //Aqui se establece el nombre de la clase principal
+                            <mainClass>com.garciajuanjo.calculatorpan.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 </project>
