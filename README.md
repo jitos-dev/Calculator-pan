@@ -4,3 +4,8 @@
 <p>Es muy sencilla de utilizar, solo tienes que seleccionar una receta, introducir la cantidad de masa o de algún ingrediente y la app te calcula las cantidades de todo.</p>
 
 <p>Está pensada para ser escalable y por eso tenemos la opción de guardar datos de ingredientes y proveedores.</p>
+<br/>
+
+<img src="https://github.com/jitos86/Calculator-pan-/blob/master/logos-readme/principal.jpg"/>
+<img src="https://github.com/jitos86/Calculator-pan-/blob/master/logos-readme/recetas.jpg"/>
+<img src="https://github.com/jitos86/Calculator-pan-/blob/master/logos-readme/harinas.jpg"/>
