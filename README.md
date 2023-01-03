@@ -1,4 +1,4 @@
-<img src="https://github.com/jitos86/Calculator-pan-/blob/master/logos-readme/logo-horizontal.png"/>
+<img src="https://github.com/jitos-dev/Calculator-pan-/blob/master/logos-readme/logo-horizontal.png"/>
 
 Calculator Pan es una app para facilitar el cálculo de las recetas de panadería. Las cantidades de los ingredientes se calculan en función de la cantidad de harina y esta app se encarga de hacer los cálculos por tí.
 
@@ -34,7 +34,7 @@ Esta es la **pantalla principal** de la aplicación en la que se distingues tres
 En la parte izquierda tenemos la lista de recetas que tenemos disponibles para seleccionar. En el centro tenemos la lista de los ingredientes de la receta junto con el porcentaje de cada uno de ellos. En esta parte podemos introducir la cantidad (en gramos) de algún ingrediente o si lo preferimos en la parte inferior podemos introducir la cantidad total de masa para hacer el cálculo. Por último en la parte derecha tenemos las observaciones que tiene la receta para su elaboración
 
 <br>
-<img src="https://github.com/jitos86/Calculator-pan-/blob/master/logos-readme/principal.jpg"/>
+<img src="https://github.com/jitos-dev/Calculator-pan-/blob/master/logos-readme/principal.jpg"/>
 <br>
 
 ## Recetas
@@ -46,7 +46,7 @@ Tenemos el desplegable donde podemos ver las recetas que tenemos y realizar cual
 Una vez rellenos todos los campos solo tenemos que pulsar en guardar y ya la tendremos disponible para utilizarla en la pantalla principal
 
 <br>
-<img src="https://github.com/jitos86/Calculator-pan-/blob/master/logos-readme/recetas.jpg"/>
+<img src="https://github.com/jitos-dev/Calculator-pan-/blob/master/logos-readme/recetas.jpg"/>
 <br>
 
 ## Prefermentos
@@ -58,7 +58,7 @@ Tenemos el desplegable donde podemos ver los prefermentos que tenemos y realizar
 Una vez rellenos todos los campos solo tenemos que pulsar en guardar y ya lo tendremos disponible para utilizarlo en cualquier receta nueva o en las que ya tenemos
 
 <br>
-<img src="https://github.com/jitos86/Calculator-pan-/blob/master/logos-readme/prefermentos.jpg"/>
+<img src="https://github.com/jitos-dev/Calculator-pan-/blob/master/logos-readme/prefermentos.jpg"/>
 <br>
 
 ## Harinas
@@ -70,7 +70,7 @@ Tenemos el desplegable donde podemos ver las harinas que tenemos y realizar cual
 Una vez rellenos todos los campos solo tenemos que pulsar en guardar y ya la tendremos disponible para utilizarla en cualquier receta nueva o en las que ya tenemos
 
 <br>
-<img src="https://github.com/jitos86/Calculator-pan-/blob/master/logos-readme/harinas.jpg"/>
+<img src="https://github.com/jitos-dev/Calculator-pan-/blob/master/logos-readme/harinas.jpg"/>
 <br>
 
 ## Ingredientes
@@ -82,7 +82,7 @@ Tenemos el desplegable donde podemos ver los ingredientes que tenemos y realizar
 Una vez rellenos todos los campos solo tenemos que pulsar en guardar y ya lo tendremos disponible para utilizarlo en cualquier receta nueva o en las que ya tenemos
 
 <br>
-<img src="https://github.com/jitos86/Calculator-pan-/blob/master/logos-readme/ingredientes.jpg"/>
+<img src="https://github.com/jitos-dev/Calculator-pan-/blob/master/logos-readme/ingredientes.jpg"/>
 <br>
 
 ## Proveedores
@@ -94,21 +94,21 @@ Tenemos el desplegable donde podemos ver los proveedores que tenemos y realizar 
 Una vez rellenos todos los campos solo tenemos que pulsar en guardar y ya lo tendremos disponible para asignarlo a cualquier ingrediente nuevo o en alguno que ya tengamos
 
 <br>
-<img src="https://github.com/jitos86/Calculator-pan-/blob/master/logos-readme/proveedores.jpg"/>
+<img src="https://github.com/jitos-dev/Calculator-pan/blob/master/logos-readme/proveedores.jpg"/>
 <br>
 
 ## Manual de usuario
 
 Actualmente estoy trabajando en el manual de usuario. Si lo necesita me puede escribir un email y cuando lo tenga disponible le aviso. Muchas gracias
 
-* <img align="center" alt="Gmail" width="46px" src="https://github.com/jitos86/jitos86/blob/master/mail.svg" />&nbsp;&nbsp;
+* <img align="center" alt="Gmail" width="46px" src="https://github.com/jitos-dev/jitos-dev/blob/master/mail.svg" />&nbsp;&nbsp;
 <a href="mailto:jitos@jitos.dev">jitos@jitos.dev</a> 
 
 ## Manual de instalación
 
 Actualmente estoy trabajando en el manual de instalación. Si lo necesita me puede escribir un email y cuando lo tenga disponible le aviso. Muchas gracias
 
-* <img align="center" alt="Gmail" width="46px" src="https://github.com/jitos86/jitos86/blob/master/mail.svg" />&nbsp;&nbsp;
+* <img align="center" alt="Gmail" width="46px" src="https://github.com/jitos-dev/jitos-dev/blob/master/mail.svg" />&nbsp;&nbsp;
 <a href="mailto:jitos@jitos.dev">jitos@jitos.dev</a> 
 
 
