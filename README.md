@@ -102,14 +102,14 @@ Una vez rellenos todos los campos solo tenemos que pulsar en guardar y ya lo ten
 Actualmente estoy trabajando en el manual de usuario. Si lo necesita me puede escribir un email y cuando lo tenga disponible le aviso. Muchas gracias
 
 * <img align="center" alt="Gmail" width="46px" src="https://github.com/jitos86/jitos86/blob/master/mail.svg" />&nbsp;&nbsp;
-<a href="mailto:jitos86@gmail.com">jitos86@gmail.com</a> 
+<a href="mailto:jitos@jitos.dev">jitos@jitos.dev</a> 
 
 ## Manual de instalación
 
 Actualmente estoy trabajando en el manual de instalación. Si lo necesita me puede escribir un email y cuando lo tenga disponible le aviso. Muchas gracias
 
 * <img align="center" alt="Gmail" width="46px" src="https://github.com/jitos86/jitos86/blob/master/mail.svg" />&nbsp;&nbsp;
-<a href="mailto:jitos86@gmail.com">jitos86@gmail.com</a> 
+<a href="mailto:jitos@jitos.dev">jitos@jitos.dev</a> 
 
 
 
